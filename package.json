@@ -1,9 +1,12 @@
 {
+  "homepage": "https://therealanuj.github.io/project-tic-tac-toe",
   "name": "tictac",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
